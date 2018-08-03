@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/betex_bg.qm</file>
+        <file alias="ca">locale/betex_ca.qm</file>
+        <file alias="cs">locale/betex_cs.qm</file>
+        <file alias="da">locale/betex_da.qm</file>
+        <file alias="de">locale/betex_de.qm</file>
+        <file alias="en">locale/betex_en.qm</file>
+        <file alias="en_US">locale/betex_en_US.qm</file>
+        <file alias="es">locale/betex_es.qm</file>
+        <file alias="fi">locale/betex_fi.qm</file>
+        <file alias="fr_FR">locale/betex_fr_FR.qm</file>
+        <file alias="hr">locale/betex_hr.qm</file>
+        <file alias="it">locale/betex_it.qm</file>
+        <file alias="ja">locale/betex_ja.qm</file>
+        <file alias="ko_KR">locale/betex_ko_KR.qm</file>
+        <file alias="nl">locale/betex_nl.qm</file>
+        <file alias="pl">locale/betex_pl.qm</file>
+        <file alias="pt">locale/betex_pt.qm</file>
+        <file alias="pt_BR">locale/betex_pt_BR.qm</file>
+        <file alias="ro_RO">locale/betex_ro_RO.qm</file>
+        <file alias="ru">locale/betex_ru.qm</file>
+        <file alias="sk">locale/betex_sk.qm</file>
+        <file alias="sv">locale/betex_sv.qm</file>
+        <file alias="tr">locale/betex_tr.qm</file>
+        <file alias="uk">locale/betex_uk.qm</file>
+        <file alias="zh_CN">locale/betex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/betex_zh_TW.qm</file>
+    </qresource>
+</RCC>

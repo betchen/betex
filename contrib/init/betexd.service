@@ -1,0 +1,26 @@
+[Unit]
+Description=BETEX's distributed currency daemon
+After=network.target
+
+[Service]
+User=betex
+Group=betex
+
+Type=forking
+PIDFile=/var/lib/betexd/betexd.pid
+
+ExecStart=/usr/bin/betexd -daemon -pid=/var/lib/betexd/betexd.pid \
+          -conf=/etc/betex/betex.conf -datadir=/var/lib/betexd
+
+ExecStop=-/usr/bin/betex-cli -conf=/etc/betex/betex.conf \
+         -datadir=/var/lib/betexd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
