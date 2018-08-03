@@ -15,3 +15,6 @@ BETEX is a cutting edge cryptocurrency, with many features not available in most
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 </table>
 
+### Resources
+Online wallet https://wallet.betexcoin.io/
+Block explorer https://explorer.betexcoin.io/
